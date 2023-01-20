@@ -1,0 +1,62 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-image: linear-gradient(to right, #181818be 10%, #1818186b 30%),
+    url("./images/bg-bike.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.btn {
+  background-color: #e76f51;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.btn2 {
+  border: 1px solid #e76f51;
+  color: #e76f51;
+  border-radius: 5px;
+  padding: 8px 25px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background-color: #e76f51;
+  color: #ffffff;
+}
+
+.banner-title {
+  color: white;
+}
+
+.banner-title p {
+  color: #ffffff;
+  font-weight: 100;
+  font-size: calc(0.4rem + 1vw);
+}
+
+.card,
+.card-footer {
+  border: none;
+}
+
+footer {
+  background-color: #0b0d17;
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
+  .banner-title p {
+    font-size: 16px;
+  }
+}
